@@ -1,0 +1,215 @@
+/* Global */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#landing button {
+  background-color: #2666ce;
+  padding: 20px 40px;
+  border-radius: 50px;
+  border: none;
+  color: #fff;
+  font-size: 1.5rem;
+  margin-top: 20px;
+  transition: all 0.2s;
+  white-space: nowrap;
+  font-weight: bolder;
+}
+
+button:hover {
+  cursor: pointer;
+  background-color: #7aaaf8;
+}
+
+.h2 {
+  line-height: 1.1em;
+  margin-bottom: 15px;
+  font-size: 80px;
+}
+.p {
+  line-height: 1.3em;
+  font-size: 23px;
+  margin-bottom: 38px;
+  color: rgb(100, 100, 100);
+}
+
+.defaultClass {
+  opacity: 0;
+  transform: translateX(-8vw);
+  transition: transform 1s;
+}
+
+.addedClass {
+  transform: translateX(0);
+  opacity: 1;
+}
+
+.default {
+  opacity: 0;
+  transform: translateY(-8vw);
+  transition: transform 1s;
+}
+
+.added {
+  transform: translateY(0);
+  opacity: 1;
+}
+
+/* ------------------------------------------------------ */
+
+#wrapper {
+  height: 6200px;
+  width: 100%;
+  object-fit: cover;
+  position: relative;
+  background-image: url(../../assets/img/wixlogo.webp);
+}
+
+/* Section 1 */
+#section1 {
+  position: absolute;
+  width: 100%;
+  height: 1391px;
+}
+
+#section1 button:hover {
+  background-color: #fff;
+  color: #1f76ff;
+  cursor: pointer;
+}
+#section1 .brand-logo {
+  position: absolute;
+  top: 30px;
+  left: 100px;
+}
+
+#section1 .brand-logo .svg {
+  width: 71px;
+  height: 27px;
+  margin: auto;
+}
+
+.section-content {
+  text-align: center;
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 782px;
+}
+.section-content h1 {
+  font-size: 79px;
+  color: #fff;
+  line-height: 1.04em;
+}
+
+/* ---------------------------------------------------------- */
+
+/* Section 2 */
+#section2 {
+  position: absolute;
+  width: 462px;
+  height: 850px;
+  top: 1600px;
+  margin-left: 7rem;
+}
+
+/* ================================= */
+
+/* Section 3 */
+
+#section3 {
+  position: absolute;
+  top: 2530px;
+  width: 375px;
+  margin-left: 65%;
+}
+
+#section3 p {
+  margin-left: 10px;
+}
+
+/* ===================================== */
+/* Section 4 */
+
+#section4 {
+  position: absolute;
+  width: 462px;
+  height: 850px;
+  top: 3600px;
+  margin-left: 7rem;
+}
+
+/* ==================== */
+/* Section 5 */
+
+#section5 {
+  position: absolute;
+  top: 4650px;
+  width: 375px;
+  margin-left: 65%;
+}
+
+#section5 p {
+  margin-left: 10px;
+}
+/* ========================================= */
+
+/* Section 6  */
+#section6 {
+  position: absolute;
+  top: 5600px;
+  width: 100%;
+}
+
+#section6 .drag {
+  width: 885px;
+  margin: auto;
+}
+
+#section6 h2 {
+  text-align: center;
+  font-size: 80px;
+  margin-bottom: 20px;
+}
+
+/* ============================ */
+/* Section 7 */
+
+#section7 {
+  color: rgb(100, 100, 100);
+
+  font-size: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#section7 p {
+  padding-top: 5px;
+}
+
+#section7 .item {
+  margin: 0 10px;
+}
+
+/* ==================== */
+/* Section 8 */
+
+#section8 {
+  color: rgb(100, 100, 100);
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+#section8 .item {
+  margin: 0 10px;
+}
+
+#section8 .item:hover {
+  color: rgb(145, 240, 145);
+  cursor: pointer;
+}
